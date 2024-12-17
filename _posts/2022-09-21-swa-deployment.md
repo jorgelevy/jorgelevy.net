@@ -3,7 +3,7 @@ title: Static Web Apps.- Desplegados
 date: 2022-09-21 12:00:00 -700
 categories: [Static Web Apps]
 tags: [static web apps, azure, azure functions]     # TAG names should always be lowercase
-image: /assets/img/2022-09-21-swa-deployment/StaticWebApp.png
+image: /assets/img/staticwebapp.png
 ---
 
 En mi post anterior revisábamos como configurar el backend para nuestras Single Page Applications (SPAs) y como utilizar el CLI de Static Web App para configurar su compilación y ejecución en nuestras maquina locales (certificación works on my machine).
