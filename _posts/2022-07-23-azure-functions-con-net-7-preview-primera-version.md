@@ -12,7 +12,7 @@ El anuncio estuvo a cargo de Mélony Qin ([@MelonyQ](https://twitter.com/MelonyQ
 
 ## Ejecución en modo aislado (Isolated Mode)
 
-He estado hablando continuamente sobre este nuevo modelo de ejecución de las Azure Functions, [en este post]() o en las varias presentaciones que he hecho últimamente. Y como ya había sido anticipado en el Road Map, para la Versión 4 de Azure Function para .Net 7 nos encontramos con que las Azure Functions puede ser ejecutados solamente en lo que se conoce como [Modelo de Ejecución Aislado (Isolated Process)](https://docs.microsoft.com/es-mx/azure/azure-functions/dotnet-isolated-process-guide){:target="_blank"}.
+He estado hablando continuamente sobre este nuevo modelo de ejecución de las Azure Functions, [en este post](posts/azure-functions-con-net-5-ejecucion-en-proceso-aislado) o en las varias presentaciones que he hecho últimamente. Y como ya había sido anticipado en el Road Map, para la Versión 4 de Azure Function para .Net 7 nos encontramos con que las Azure Functions puede ser ejecutados solamente en lo que se conoce como [Modelo de Ejecución Aislado (Isolated Process)](https://docs.microsoft.com/es-mx/azure/azure-functions/dotnet-isolated-process-guide){:target="_blank"}.
 
 ![Azure Functions con .Net 7 (preview) – Primera versión](/assets/img/2022-07-23-azure-functions-con-net-7-preview-primera-version/image-1.png)
 
@@ -60,7 +60,7 @@ Lo primero que podemos observar una vez que ejecutamos el comando de ‘func ini
 
 ![Azure Functions con .Net 7 (preview) – Primera versión](/assets/img/2022-07-23-azure-functions-con-net-7-preview-primera-version/image-2.png)
 
-Y es en este último archivo donde podemos extender configurar opciones como la inyección de dependencias, la cual explico [en este post]().
+Y es en este último archivo donde podemos extender configurar opciones como la inyección de dependencias, la cual explico [en este post](posts/azure-functions-con-net-5-inyeccion-de-dependencias).
 
 ## Conclusiones personales
 

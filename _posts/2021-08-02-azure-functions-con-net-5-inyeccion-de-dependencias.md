@@ -14,7 +14,7 @@ En su post [Inyección de dependencias en Azure Functions](posts/inyeccion-de-de
 > - Azure Functions con .Net 5  Inyección de dependencias
 >
 
-En mi [post anterior](), platicaba sobre el nuevo modelo de ejecución en proceso aislado de las Azure Functions para .Net 5. En el abordábamos el tema sobre la presencia de la clase '*Program.cs*' que será el proceso encargado de la ejecución de la funcionalidad.
+En mi [post anterior](posts/azure-functions-con-net-5-inyeccion-de-dependencias), platicaba sobre el nuevo modelo de ejecución en proceso aislado de las Azure Functions para .Net 5. En el abordábamos el tema sobre la presencia de la clase '*Program.cs*' que será el proceso encargado de la ejecución de la funcionalidad.
 
 Es en esta clase en la que también podemos observar la presencia del método '*Main()*' que es el punto de entrada de la aplicación. Y es aquí donde nos encontramos con la inicialización de una variable tipo '*HostBuilder*' la cual una vez inicializada es ejecutada con el método '*Run()*'.
 
