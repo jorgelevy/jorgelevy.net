@@ -1,6 +1,6 @@
 ---
 title: GlobalAzureLatam... desde la trinchera
-date: 2021-06-26 12:00:00 -700
+date: 2021-04-19 12:00:00 -700
 categories: [Eventos]
 tags: [global azure, global azure latam, latino net online]     # TAG names should always be lowercase
 ---
