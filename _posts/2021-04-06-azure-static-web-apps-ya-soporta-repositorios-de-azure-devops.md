@@ -1,7 +1,7 @@
 ---
 title: Azure Static Web Apps ya soporta repositorios de Azure DevOps
 date: 2021-04-06 12:00:00 -700
-categories: [Azure DevOps, Static Web App]
+categories: [Azure DevOps, Static Web Apps]
 tags: [azure devops, static web app]     # TAG names should always be lowercase
 image: /assets/img/azuredevops.png
 ---

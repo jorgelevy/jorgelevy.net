@@ -3,7 +3,6 @@ title: Configurar una Aplicación ASP.NET Core Web para ejecutarse en IIS local
 date: 2020-04-30 12:00:00 -700
 categories: [ASP.NET Core]
 tags: [iis, visual studio]     # TAG names should always be lowercase
-image: /assets/img/presentaciones.jpg
 ---
 
 Si en alguna ocasión te encuentras con la necesidad de configurar una aplicación web de .Net Core en tu servidor local IIS. Estos los pasos para lograrlo:

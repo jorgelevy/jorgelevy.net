@@ -1,8 +1,8 @@
 ---
 title: Static Web Apps con API escrita con Azure Functions
 date: 2022-08-24 12:00:00 -700
-categories: [Azure Functions, Static Web App]
-tags: [.net 6, azure, azure functions, static web app]     # TAG names should always be lowercase
+categories: [Azure Functions, Static Web Apps]
+tags: [.net 6, azure, azure functions, static web apps]     # TAG names should always be lowercase
 image: /assets/img/staticwebapp.png
 ---
 
