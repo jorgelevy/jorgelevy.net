@@ -5,7 +5,9 @@ refactor: true
 
 {% include lang.html %}
 
-<!-- <img src="/assets/img/cropped-header-2048x1018.png" alt="Jorge Levy"> -->
+<img src="/assets/img/cropped-header-2048x1018.png" alt="Jorge Levy">
+
+<h2>Entradas en el Blog</h2>
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
