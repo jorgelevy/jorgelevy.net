@@ -27,7 +27,7 @@ Es así como el equipo de desarrollo y soporte de las Azure Functions decide ado
 El primer cambio que vamos a notar es que cuando creamos un nuevo proyecto, digamos en Visual Studio, nos encontraremos con la presencia de la clase *Program.cs*. La cual es el punto de entrada de la ejecución de las funciones, es decir, el proceso encargado de la ejecución.
 
 
-Anteriormente, como lo comenta [Facu (Facundo La Rocca)](https://twitter.com/TheRockFacu){:target="_blank"} en su blog [acá](/posts/inyeccion-de-dependencias-en-azure-functions), en las Azure Functions para .Net Core 3.1, podíamos crear una clase que heredara de *FunctionsStartup* para que está fuera ejecutada al iniciar la ejecución.
+Anteriormente, como lo comenta [Facu (Facundo La Rocca)](https://twitter.com/TheRockFacu){:target="_blank"} en su blog [acá](posts/inyeccion-de-dependencias-en-azure-functions), en las Azure Functions para .Net Core 3.1, podíamos crear una clase que heredara de *FunctionsStartup* para que está fuera ejecutada al iniciar la ejecución.
 
 ## Paquetes Nuget
 
