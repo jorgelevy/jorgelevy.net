@@ -11,7 +11,7 @@ El pasado 10 de noviembre del 2020 fue liberado el .Net 5. Sin embargo, un eleme
 > Este es un post de una serie de posts relacionado a la ejecución de Azure Functions con .Net 5
 >
 > - Azure Functions con .Net 5  Ejecución en proceso aislado
-> - [Azure Functions con .Net 5  Inyección de dependencias](/posts/azure-functions-con-net-5-inyeccion-de-dependencias)
+> - [Azure Functions con .Net 5  Inyección de dependencias](posts/azure-functions-con-net-5-inyeccion-de-dependencias)
 >
 
 Con este release nos encontramos con un cambio en el modelo de ejecución. Y es aquí donde encontramos con que las Azure Functions ahora son ejecutadas en un proceso aislado.

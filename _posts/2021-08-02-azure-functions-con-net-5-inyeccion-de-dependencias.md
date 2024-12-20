@@ -10,7 +10,7 @@ En su post [Inyección de dependencias en Azure Functions](posts/inyeccion-de-de
 
 > Este es un post de una serie de posts relacionado a la ejecución de Azure Functions con .Net 5
 >
-> - [Azure Functions con .Net 5  Ejecución en proceso aislado](/posts/azure-functions-con-net-5-ejecucion-en-proceso-aislado)
+> - [Azure Functions con .Net 5  Ejecución en proceso aislado](posts/azure-functions-con-net-5-ejecucion-en-proceso-aislado)
 > - Azure Functions con .Net 5  Inyección de dependencias
 >
 
