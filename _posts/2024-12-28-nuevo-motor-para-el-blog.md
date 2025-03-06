@@ -6,7 +6,7 @@ tags: [miscelaneos, static site generators, markdown, azure static web apps]    
 image: /assets/img/miscellaneous.jpg
 ---
 
-Me he dado la oportunidad de cambiar el motor que gestiona este blog. He decidido no usar más WordPress y en cambio estaré utilizando un generador de sitios estáticos. En mi evaluación de algunas de las múltiples opciones que existen, he elegido utiliza [Jekyll](https://jekyllrb.com/){:target="_blankc"} con el tema [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy){:target="_blank"}.
+Me he dado la oportunidad de cambiar el motor que gestiona este blog. He decidido no usar más WordPress y en cambio estaré utilizando un generador de sitios estáticos. En mi evaluación de algunas de las múltiples opciones que existen, he elegido utiliza [Jekyll](https://jekyllrb.com/){:target="_blank"} con el tema [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy){:target="_blank"}.
 
 ## Introducción
 
