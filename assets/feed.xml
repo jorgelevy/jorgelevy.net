@@ -1,0 +1,44 @@
+---
+layout: compress
+permalink: /feed.xml
+---
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>{{ site.title }}</title>
+  <link>{{ site.url }}</link>
+  <description>{{ site.description }}</description>
+  <language>es-mx</language>
+  <lastBuildDate>{{ site.time |date_to_rfc822 }}</lastBuildDate>
+  <generator>Jekyll {{ jekyll.version }} - https://jekyllrb.com/</generator>
+  <image>
+    <url>{{ site.url }}/assets/img/favicons/favicon-96x96.png</url>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+  </image>  
+{% for post in site.posts limit: 5 %}
+  {% assign post_absolute_url = post.url | absolute_url %}
+  {% assign extension = post.image | split: '.' | last %}
+  <item>
+    <title>{{ post.title }}</title>
+    <link>{{ post_absolute_url }}</link>
+    <description>{% include post-summary.html max_length=400 %}</description>
+  {% if post.last_modified_at %}
+    <pubDate>{{ post.last_modified_at | date_to_rfc822 }}</pubDate>
+  {% else %}
+    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+  {% endif %}
+    <enclosure url="{{ site.url }}{{ post.image }}" length="78645" type="image/{{ extension }}" />
+    <guid>{{ post_absolute_url }}</guid>
+  {% if post.categories %}
+    {% for category in post.categories %}
+    <category>{{ category }}</category>
+    {% endfor %}
+  {% endif %}
+  </item>
+{% endfor %}
+</channel>
+
+</rss>

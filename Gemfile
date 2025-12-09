@@ -13,4 +13,8 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
 
-gem 'logger'
+gem "logger"
+
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+end

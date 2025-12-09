@@ -75,5 +75,9 @@ post:
 
 # categories page
 categories:
-  category_measure: categorias
-  post_measure: entradas
+  category_measure:
+    singular: categoría
+    plural: categorías
+  post_measure:
+    singular: entrada
+    plural: entradas
