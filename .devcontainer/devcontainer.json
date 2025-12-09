@@ -1,0 +1,5 @@
+{
+  "name": "Jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+}
