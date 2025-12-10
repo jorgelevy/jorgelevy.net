@@ -122,7 +122,7 @@ comments:
     repo: "jorgelevy/jorgelevy.net"
     repo_id: "R_kgDOQlSwlw"
     category: "Comments"
-    category_id: "DIC_kwDONb0Q284ClHcM"
+    category_id: "DIC_kwDOQlSwl84Czod8"
     mapping: "pathname" # optional, default to 'pathname'
     strict: " 0" # optional, default to '0'
     input_position: "bottom" # optional, default to 'bottom'
