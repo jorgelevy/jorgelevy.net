@@ -1,42 +1,42 @@
-#  The contact options.
 - type: github
   icon: 'fab fa-github'
-
-- type: bluesky
-  icon: 'fa-brands fa-bluesky'
-  url: 'https://bsky.app/profile/jorgelevy.net'
 
 - type: linkedin
   icon: 'fab fa-linkedin'
   url:  'https://www.linkedin.com/in/jorgelevydotnet'
 
-- type: facebook
-  icon: 'fab fa-facebook'
-  url:  'https://www.facebook.com/JorgeLevyDotNet'
-
 - type: youtube
   icon: 'fab fa-youtube'
   url: https://www.youtube.com/@JorgeLevyDotNet
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: tikTok
+  icon: 'fab fa-tiktok'
+  url:  'https://www.tiktok.com/@jorgelevydotnet'
+
+- type: x
+  icon: 'fa-brands fa-x-twitter'
+  url:  'https://x.com/jorgelevydotnet'
 
 - type: mastodon
   icon: 'fab fa-mastodon'
-  url:  'https://hachyderm.io/@jorgelevy'  # Fill with your Mastodon account page, rel="me" will be applied for verification
+  url:  'https://hachyderm.io/@jorgelevy'
+
+- type: facebook
+  icon: 'fab fa-facebook'
+  url:  'https://www.facebook.com/JorgeLevyDotNet'
+
+- type: bluesky
+  icon: 'fa-brands fa-bluesky'
+  url: 'https://bsky.app/profile/jorgelevy.net'
 
 - type: threads
   icon: 'fa-brands fa-threads'
-  url: 'https://www.threads.net/@jorgelevydotnet'                   # Fill with your Threads profile link
+  url: 'https://www.threads.net/@jorgelevydotnet'
+
+- type:  instagram
+  icon: 'fab fa-instagram'
+  url:  'https://www.instagram.com/jorgelevydotnet/'
 
 - type: rss
   icon: 'fas fa-rss'
   noblank: true
-#
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
-#
-# - type: reddit
-#   icon: 'fa-brands fa-reddit'
-#   url: ''                   # Fill with your Reddit profile link
