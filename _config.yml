@@ -120,7 +120,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: "jorgelevy/jorgelevy.net"
-    repo_id: "R_kgDONb0Q2w"
+    repo_id: "R_kgDOQlSwlw"
     category: "Comments"
     category_id: "DIC_kwDONb0Q284ClHcM"
     mapping: "pathname" # optional, default to 'pathname'
