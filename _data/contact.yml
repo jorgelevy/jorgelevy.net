@@ -7,7 +7,7 @@
 
 - type: youtube
   icon: 'fab fa-youtube'
-  url: https://www.youtube.com/@JorgeLevyDotNet
+  url:  'https://www.youtube.com/@JorgeLevyDotNet'
 
 - type: tiktok
   icon: 'fab fa-tiktok'
@@ -27,11 +27,11 @@
 
 - type: bluesky
   icon: 'fa-brands fa-bluesky'
-  url: 'https://bsky.app/profile/jorgelevy.net'
+  url:  'https://bsky.app/profile/jorgelevy.net'
 
 - type: threads
   icon: 'fa-brands fa-threads'
-  url: 'https://www.threads.net/@jorgelevydotnet'
+  url:  'https://www.threads.net/@jorgelevydotnet'
 
 - type: instagram
   icon: 'fab fa-instagram'

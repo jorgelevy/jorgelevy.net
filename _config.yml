@@ -22,6 +22,7 @@ description: >- # used by seo meta and the atom feed
   Desarrollo .Net, Azure, Azure DevOps.
 
 # Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://jorgelevy.net"
 
 github:
@@ -38,11 +39,11 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://jorgelevy.net
-    - https://bsky.app/profile/jorgelevy.net
     - https://github.com/jorgelevy
-    - https://www.facebook.com/JorgeLevyDotNet
     - https://www.linkedin.com/in/jorgelevydotnet/
-    - https://twitter.com/JorgeLevyDotNet
+    - https://www.facebook.com/JorgeLevyDotNet
+    - https://bsky.app/profile/jorgelevy.net
+    - https://x.com/JorgeLevyDotNet
 
 # Site Verification Settings
 webmaster_verifications:
@@ -215,7 +216,7 @@ exclude:
   - README.md
   - LICENSE
   - purgecss.js
-  - rollup.config.js
+  - "*.config.js"
   - "package*.json"
 
 jekyll-archives:
