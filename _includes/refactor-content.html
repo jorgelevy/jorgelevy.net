@@ -173,10 +173,10 @@
 <!-- Add header for code snippets -->
 
 {% if _content contains '<div class="highlight"><code>' %}
-  {% assign _code_spippets = _content | split: '<div class="highlight"><code>' %}
+  {% assign _code_snippets = _content | split: '<div class="highlight"><code>' %}
   {% assign _new_content = '' %}
 
-  {% for _snippet in _code_spippets %}
+  {% for _snippet in _code_snippets %}
     {% if forloop.last %}
       {% assign _new_content = _new_content | append: _snippet %}
 
