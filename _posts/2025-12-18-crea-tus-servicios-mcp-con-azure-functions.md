@@ -49,7 +49,7 @@ Nota 2: Para ejecutar localmente, será necesario seleccionar forzosamente la op
 
 Una vez terminado nuestro asistente de creación terminaremos con un código como este:
 
-``` c#
+```c#
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Extensions.Mcp;
 using Microsoft.Extensions.Logging;
